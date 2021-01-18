@@ -1,12 +1,7 @@
-//body
-document.body.style.backgroundColor="#333333";
+var wordInput=document.getElementById('wordInput');
+var checkLetter=document.getElementById('checkLetter');
+var checkBtn=document.getElementById('checkBtn');
 
-//div
-var div=document.createElement("DIV");
-div.id="container";
-div.style.width = "900px";
-div.style.height = "400px";
-div.style.backgroundColor="#b3b3ff";
-div.style.margin="0 auto";
-document.body.appendChild(div);
-
+// Maak bovenstaand speelbord na in HTML en zorg ervoor dat je een woord van 5 letters kunt invoeren en ook 1 letter waar je op wilt controleren.
+// Zorg ervoor dat je aangeeft op welke plaats de letter in het woord voorkomt. 
+// In dit voorbeeld zet je op plaats 2 en 3 de letter a neer omdat in het woord 'kaart' er een a voorkomt op positie 2 en 3.
