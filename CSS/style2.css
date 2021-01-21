@@ -16,14 +16,30 @@ body{
     background-color: white;
 }
 
-/* #wordInput{
-    
+#wordInput{
+    margin-top: 5%;
+    margin-left: 20.6%;
 }
 
 #checkLetter{
-
+    margin-top: 3%;
+    margin-left: 12%;
 }
 
 #checkBtn{
-    
-} */
+    margin: 7% 0 0 42%;
+}
+
+label {
+    margin-left: 5%;
+}
+
+button{
+    padding: 3% 5%;
+    background-color: white;
+    border-color: black;
+}
+
+#btn1{
+    margin: 4% 0 0 15%;
+}
