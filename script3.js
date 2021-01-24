@@ -1,5 +1,5 @@
 var word=["k", "a", "a", "r", "t"];
-var inputWord=[];
+var inputWord=["r","a","t","j","e"];
 
 //Input
 var lingoWord=document.getElementById('lingoWord');
@@ -14,7 +14,6 @@ var btn4=document.getElementById('btn4');
 var btn5=document.getElementById('btn5');
 
 //
-
-checkBtn.addEventListener("click", function(){
-
-});
+btn1.style.borderRadius="100%"; btn1.style.backgroundColor="yellow";
+btn2.style.backgroundColor="green";
+btn3.style.borderRadius="100%"; btn3.style.backgroundColor="yellow";
